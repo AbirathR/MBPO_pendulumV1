@@ -1,6 +1,7 @@
 # MBPO_pendulumV1
 
 This is a repo demonstrating the working of Model-based policy optimization (MBPO) paper by Janner et. al. on the Pendulum V1 environment in gymnasium.
+There is also a ipynb notebook file that can be run if you do not want to run locally.(MBPO_demo.ipynb)
 
 *This code doesn't use GPU.*
 
