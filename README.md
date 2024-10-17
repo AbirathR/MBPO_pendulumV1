@@ -24,7 +24,7 @@ cd MBPO_pendulumV1
 python3 demo.py
 
 
-Training loop will begin shortly and the reward values for each episode can be seen. Video visualizations of the episode are logged in the 'logging' folder and the reward curve is also displayed.
+Training loop will begin shortly and the reward values for each episode can be seen. Video visualizations of the episodes are logged in the 'logging' folder and the reward curve is also displayed.
 
 
 
