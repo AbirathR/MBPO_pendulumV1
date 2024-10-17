@@ -2,7 +2,7 @@
 
 This is a repo demonstrating the working of Model-based policy optimization (MBPO) paper by Janner et. al. on the Pendulum V1 environment in gymnasium.
 
-*This code don't use GPU.*
+*This code doesn't use GPU.*
 
 Steps to run the repo:
 
