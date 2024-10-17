@@ -28,6 +28,7 @@ class ModelAgent:
         hidden_dims_critic = tuple(kwargs.get("hidden_dims_critic", (256, 256)))
         hidden_dims_model = tuple(kwargs.get("hidden_dims_model", (256, 256)))
 
+        # Hyperparameters
         self.gamma = 0.99
         self.tau = 0.005
         self.delay = 2
@@ -229,7 +230,8 @@ class ModelAgent:
         dict: A dictionary containing batches of observations, actions, next observations, and rewards.
         """
         # Sample a minibatch of experiences from the replay buffer
-        b = self.buffer.sample_tensors(n=128)
+        batchsize = 128
+        b = self.buffer.sample_tensors(n=batchsize)
   
         with torch.no_grad():
             action = self.actor(b["o"])
