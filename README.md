@@ -19,7 +19,7 @@ pip install torch
 pip install pygame
 pip install moviepy
 
-pip install --upgrade gymnasium numpy torch     (to verify if they are the latest versions)
+pip install --upgrade gymnasium numpy torch     (to ensure they are the latest versions)
 
 
 cd MBPO_pendulumV1
@@ -27,6 +27,8 @@ python3 demo.py
 
 
 Training loop will begin shortly and the reward values for each episode can be seen. Video visualizations of the episodes are logged in the 'logging' folder and the reward curve is also displayed.
+
+There is also a ipynb notebook file that can be run if you do not want to run locally. 
 
 
 
